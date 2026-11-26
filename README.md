@@ -4,13 +4,39 @@ Original 3D mobile cricket game for Android. Landscape, 60 fps target, built to 
 
 Milestone 1 is playable from an empty Unity scene: one ground, four fictional sides, a full innings with batting, bowling, fielding and a scoreboard.
 
-## Play it
+## Clone and start
 
-1. Install **Unity 2022.3 LTS** with the Android Build Support module.
-2. Add this folder as a project (`rexo_cricket_game`).
-3. Press **Play**. You do not need to place anything in a scene. `BootLoader` builds the menus and the match.
+1. Install [Git](https://git-scm.com/downloads) and [Unity Hub](https://unity.com/download). In Unity Hub install **Unity 2022.3 LTS** with the **Android Build Support** module.
+2. Clone the repo and open that folder:
 
-The first launch walks through splash, a consent popup, an optional location prompt, sign-in (guest or a local display name) and a loading screen with tips. A coach then runs a four-step tutorial. After that, **Quick Match** is the match.
+```bash
+git clone https://github.com/qadeer015/rexo_cricket_game.git
+cd rexo_cricket_game
+```
+
+3. In Unity Hub choose **Add** → **Add project from disk** and select the `rexo_cricket_game` folder.
+4. Open the project. The first import can take a few minutes.
+5. Press **Play**. You do not need to place anything in a scene. `BootLoader` builds the menus and the match.
+
+If the folder is already on your machine, skip the clone and start at step 3.
+
+### Clone aur start (Urdu)
+
+1. Git aur Unity Hub install karo. Unity Hub mein **Unity 2022.3 LTS** lagao, saath mein **Android Build Support**.
+2. Terminal mein yeh chalao:
+
+```bash
+git clone https://github.com/qadeer015/rexo_cricket_game.git
+cd rexo_cricket_game
+```
+
+3. Unity Hub → **Add** → **Add project from disk** → `rexo_cricket_game` folder select karo.
+4. Project kholo. Pehli dafa import mein thori der lagti hai.
+5. **Play** dabao. Scene khali reh sakti hai. Game khud splash se start ho jata hai.
+
+## First launch
+
+The first Play walks through splash, a consent popup, an optional location prompt, sign-in (guest or a local display name) and a loading screen with tips. A coach then runs a four-step tutorial. After that, **Quick Match** is the match.
 
 ### In the editor
 
